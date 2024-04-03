@@ -3,7 +3,7 @@ Linear combinations allow us to build new vectors from existing ones. We can tak
 Consider a set of vectors v1, v2, ..., vn in a vector space. A linear combination of these vectors is any vector of the form "a1v1 + a2v2 + ... + an*vn", where a1, a2, ..., an are scalars (real or complex numbers).
 
 We can create any vector from a combination of two vectors (provided that they are not colinear) by multiplying them by some scalar. This means that:
-
+```math
 $$
 c_{1}\vec{a}+c_{2}\vec{b}=\vec{c}
 $$
@@ -21,6 +21,7 @@ c2\begin{pmatrix}
 4 \\ 6
 \end{pmatrix}
 $$
+```
 There is some value of c1 and c2 that we use here to create this combination. Let's break it down further:
 
 $$
