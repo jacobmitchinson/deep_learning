@@ -24,6 +24,7 @@ $$
 ```
 There is some value of c1 and c2 that we use here to create this combination. Let's break it down further:
 
+```math
 $$
 \begin{align}
 c_{1}1 + c_{2}2 = 4
@@ -31,9 +32,11 @@ c_{1}1 + c_{2}2 = 4
 c_12 + c_23 = 6
 \end{align}
 $$
+```
 
 We can also write this as:
 
+```math
 $$
 \begin{align}
 x+2y = 4
@@ -41,9 +44,11 @@ x+2y = 4
 2x+3y = 6
 \end{align}
 $$
+```
 
 We can times the first equation by 2 and then apply extraction:
 
+```math
 $$
 \begin{align}
 2x+4y = 8
@@ -51,20 +56,28 @@ $$
 2x+3y = 6
 \end{align}
 $$
+```
+
 Subtract the first equation from the second:
 
+```math
 $$
 \begin{align}
 y = 2
 \end{align}
 $$
+```
+
 Substituting into our first equation then results in:
 
+```math
 $$
 \begin{align}
 x+4 = 4
 \end{align}
 $$
+```
+
 Which means x is 0. If x is 0 then these are not co-linear.
 
 ## Span
@@ -77,6 +90,7 @@ As we showed above, we can take two vectors that are not co-linear and by scalin
 
 Vectors that are co-linear are said to be linearly dependent. We can see this because our equation above will never allow us to find a vector that is on a different line if the vectors are co-linear. For example:
 
+```math
 $$
 c_1
 \begin{pmatrix}
@@ -88,6 +102,8 @@ c_2
 4 \\ 6
 \end{pmatrix}
 $$
+```
+
 There are no values of c1 and c2 that will allow to span all of R2 because these values lie on the same line. We can see that adding these the first vector to the other which will just result in a value along the same line since these two values are co-linear. 
 
 https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/linear-combinations/v/linear-combinations-and-span
