@@ -105,5 +105,3 @@ $$
 ```
 
 There are no values of c1 and c2 that will allow to span all of R2 because these values lie on the same line. We can see that adding these the first vector to the other which will just result in a value along the same line since these two values are co-linear. 
-
-https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/linear-combinations/v/linear-combinations-and-span
